@@ -1,0 +1,28 @@
+/* content */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: calc(100% / 10);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.even{
+    background-color: deepskyblue;
+}
+
+.odd{
+    background-color: green;
+}
